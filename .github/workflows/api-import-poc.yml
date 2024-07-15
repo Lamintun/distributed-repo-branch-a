@@ -2,7 +2,9 @@ name: API-Import-POC
 
 on:
   workflow_dispatch:
-
+permissions:                
+  contents: write           
+  pull-requests: write 
 jobs:
   Call_Main_CI_Workflow:
     uses: Lamintun/distributed-repo-base/.github/workflows/rw-ci-workflow.yml@main
