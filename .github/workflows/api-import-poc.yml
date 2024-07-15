@@ -5,7 +5,7 @@ on:
 
 jobs:
   Call_Main_CI_Workflow:
-    uses: Lamintun/distributed-repo-base/blob/main/.github/workflows/rw-ci-workflow.yml
+    uses: Lamintun/distributed-repo-base/.github/workflows/rw-ci-workflow.yml
     with:
       TLA: 'LMT'
       Repository: 'Lamintun/distributed-repo-branch-a'
