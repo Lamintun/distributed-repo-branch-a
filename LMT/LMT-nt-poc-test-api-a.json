@@ -1,0 +1,61 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "nt-poc-test-api-a",
+    "description": "Import from \"nt-poc-test-api-fa\" Function App Updated 4 times",
+    "version": "1.0"
+  },
+  "servers": [
+    {
+      "url": "https://nt-poc-sushil-eus2-01-apim.azure-api.net/nt-poc-test-api-fa"
+    }
+  ],
+  "paths": {
+    "/test": {
+      "get": {
+        "summary": "test",
+        "operationId": "get-test",
+        "responses": {
+          "200": {
+            "description": null
+          }
+        }
+      },
+      "post": {
+        "summary": "test",
+        "operationId": "post-test",
+        "responses": {
+          "200": {
+            "description": null
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "securitySchemes": {
+      "apiKeyHeader": {
+        "type": "apiKey",
+        "name": "Ocp-Apim-Subscription-Key",
+        "in": "header"
+      },
+      "apiKeyQuery": {
+        "type": "apiKey",
+        "name": "subscription-key",
+        "in": "query"
+      }
+    }
+  },
+  "security": [
+    {
+      "apiKeyHeader": []
+    },
+    {
+      "apiKeyQuery": []
+    }
+  ],
+  "x-apiOwners": [
+    "bffec0b9-d6da-4652-bf93-c16989c1bedc",
+    "b53106ea-958e-41b1-ae9d-a661c5e8cdb4"
+  ]
+}

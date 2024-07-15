@@ -1,0 +1,7 @@
+{
+  "servers": [
+    {
+      "url": "https://nt-poc-sushil-eus2-01-apim.azure-api.net/nt-poc-test-api-d"
+    }
+  ]
+}
