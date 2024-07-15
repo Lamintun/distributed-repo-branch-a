@@ -2,7 +2,7 @@
   "openapi": "3.0.1",
   "info": {
     "title": "nt-poc-test-api-c",
-    "description": "Import from \"nt-poc-test-api-fa\" Function App Updated 4 times",
+    "description": "Changed from caller workflow",
     "version": "1.0"
   },
   "servers": [
